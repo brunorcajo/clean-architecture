@@ -1,0 +1,74 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js test
+
+PATH: 
+  C:\Users\bruno\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\bruno\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\ProgramData\Boxstarter;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn;C:\WINDOWS\System32\OpenSSH;D:\REPOSITORIO\PROJETOS\WEB\dart-sass\src;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\PuTTY;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Program Files\OpenJDK\openjdk-8u302-b08\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;C:\Users\bruno\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Git\cmd;C:\Program Files\OpenJDK\openjdk-8u302-b08\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Ruby27-x64\bin;C:\Users\bruno\AppData\Local\Programs\Python\Python37-32\Scripts;C:\Users\bruno\AppData\Local\Programs\Python\Python37-32;C:\Users\bruno\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Microsoft VS Code\bin;C:\xampp\php;D:\REPOSITORIO\PROJETOS\WEB\dart-sass\src;C:\Users\bruno\AppData\Local\Programs\Fiddler;C:\Users\bruno\AppData\Local\Yarn\bin;C:\Users\bruno\AppData\Local\Microsoft\WindowsApps;C:\Android\platform-tools;C:\Android\cmdline-tools\latest\platform-tools;C:\Users\bruno\.dotnet\tools;C:\Users\bruno\AppData\Roaming\npm;C:\Users\bruno\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\bruno\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  14.18.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: D:\REPOSITORIO\PROJETOS\WEB\_ARQUITETURA-LIMPA-NA-PRATICA\package.json: Unexpected token } in JSON at position 159
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1631:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:304:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "cleanarchitecture",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest --config jest.config.js",
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@shelf/jest-mongodb": "^1.2.3",
+      "@types/express": "^4.17.11",
+      "@types/jest": "^26.0.15",
+      "@types/mongodb": "^3.6.7",
+      "@types/node": "^14.17.27",
+      "@types/nodemailer": "^6.4.4",
+      "@types/supertest": "^2.0.10",
+      "@typescript-eslint/eslint-plugin": "^5.28.0",
+      "@typescript-eslint/parser": "^5.28.0",
+      "eslint": "^8.17.0",
+      "eslint-config-standard": "^17.0.0",
+      "eslint-plugin-import": "^2.26.0",
+      "eslint-plugin-n": "^15.2.2",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-promise": "^6.0.0",
+      "git-commit-msg-linter": "^3.2.8",
+      "husky": "^4.3.0",
+      "jest": "^26.6.3",
+      "lint-staged": "^10.5.1",
+      "rimraf": "^3.0.2",
+      "supertest": "^6.1.6",
+      "ts-jest": "^26.4.3",
+      "typescript": "^4.4.4"
+    },
+    "dependencies": {
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "module-alias": "^2.2.2",
+      "mongodb": "^3.7.3",
+      "nodemailer": "^6.7.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
