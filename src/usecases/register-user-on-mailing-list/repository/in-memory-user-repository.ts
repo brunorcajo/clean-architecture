@@ -9,7 +9,7 @@ export class InMemoryUserRepository implements UserRepository {
   }
 
   findUserByEmail (_email: string): Promise<UserData | null> {
-    return this.repository.find((u) => u.email === _email) || null
+    return this.repository.find((u) => u.email === _email) || null as any
   }
 
   async add (_user: UserData): Promise<void> {
@@ -19,8 +19,8 @@ export class InMemoryUserRepository implements UserRepository {
     }
   }
 
-  findAllUsers (): Promise<UserData[]> {
-    throw new Error('Method not implemented.')
+  async findAllUsers (): Promise<UserData[]> {
+    return this.repository
   }
 
   async exists (_user: UserData): Promise<boolean> {
