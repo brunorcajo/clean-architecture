@@ -25,4 +25,9 @@ describe('Email validation', () => {
     const email: string = 'l'.repeat(64) + '@' + 'd'.repeat(320) + '.com'
     expect(Email.validate(email)).toBeFalsy()
   })
+
+  it('should not accept doamin part larger than 255', () => {
+    const email: string = 'local@' + 'd'.repeat(320) + '.com'
+    expect(Email.validate(email)).toBeFalsy()
+  })
 })
